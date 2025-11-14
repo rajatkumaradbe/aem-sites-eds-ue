@@ -1,9 +1,11 @@
 {
   "mappings": [
     "/content/aem-sites-eds-ue/:/",
-    "/content/aem-sites-eds-ue/configuration:/.helix/config.json"
+    "/content/aem-sites-eds-ue/configuration:/.helix/config.json",
+    "/content/aem-sites-eds-ue/metadata:/metadata.json"
   ],
   "includes": [
+    "/content/aem-sites-eds-ue/",
     "/content/",
     "/content/dam/"
   ]
